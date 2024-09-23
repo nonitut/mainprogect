@@ -1,0 +1,60 @@
+a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+article{
+    width: 700px ; /* ширина блока / контейнера */
+    margin: 0 auto;
+    /* внешний отступ, вверх и низ = 0,
+    а лево и право = выранивается автоматически */
+    /* background: #f5f5f5; */
+}
+
+h1, h2, h3, p, ol, ul , blockquote, div{
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 38px;
+    margin-top: 67px;
+    line-height: 45px;
+}
+
+h1 + p{
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* h1 + hr + p{
+    color: brown;
+} */
+
+h1 + p + p{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+h3{
+    margin-top: 38px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+h2 + blockquote{
+    margin-top: 7px;
+}
+
